@@ -1,0 +1,101 @@
+Script started on Wed Mar  2 23:32:35 2022
+Restored session: Wed  2 Mar 2022 23:29:47 AEDT
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://MacBook-Air.local/Users/des-ant/Documents/GitHub/2022/2021-FSO-Part12-Containers/script-answers
+[0m[27m[24m[Jdes-ant@MacBook-Air script-answers % [K[?2004hddocker container run -it ubuntu 
+[K 
+ bash[?2004l
+
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K
+bbf2fb66fa6e: Pulling fs layer 
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  278.5kB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  1.666MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  2.784MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  3.894MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  5.294MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  6.966MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  8.358MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  9.747MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  11.14MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  12.55MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  13.94MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  15.34MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  16.74MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  18.13MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  19.52MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  20.92MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  22.32MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  23.71MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading   25.1MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Downloading  26.49MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Verifying Checksum 
+[1B[1A[2K
+bbf2fb66fa6e: Download complete 
+[1B[1A[2K
+bbf2fb66fa6e: Extracting  294.9kB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Extracting  4.719MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Extracting  8.847MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Extracting  13.57MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Extracting  18.58MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Extracting  22.12MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Extracting  25.95MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Extracting  27.17MB/27.17MB
+[1B[1A[2K
+bbf2fb66fa6e: Pull complete 
+[1BDigest: sha256:669e010b58baf5beb2836b253c1fd5768333f0d1dbcb834f7c07a4dc93f474be
+Status: Downloaded newer image for ubuntu:latest
+]0;root@39dee59da446: /root@39dee59da446:/# 
+[K]0;root@39dee59da446: /root@39dee59da446:/# mkdir /usr/src              ls
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;34mmedia[0m  [01;34mopt[0m   [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;34mmnt[0m    [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+]0;root@39dee59da446: /root@39dee59da446:/# md kdir /user   r sr/           ls /usr/src//  a / /
+]0;root@39dee59da446: /root@39dee59da446:/# ls . /usr/
+[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+]0;root@39dee59da446: /root@39dee59da446:/# mkdir /usr/src/app
+]0;root@39dee59da446: /root@39dee59da446:/# touch /usr/src/app/index.js
+]0;root@39dee59da446: /root@39dee59da446:/# [Kls /s usr// src/app/
+index.js
+]0;root@39dee59da446: /root@39dee59da446:/# exit
+exit
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://MacBook-Air.local/Users/des-ant/Documents/GitHub/2022/2021-FSO-Part12-Containers/script-answers
+[0m[27m[24m[Jdes-ant@MacBook-Air script-answers % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Wed Mar  2 23:36:22 2022
