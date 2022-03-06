@@ -6,7 +6,7 @@ const redis = require('../redis');
 const incrementTodos = async () => {
   let added_todos = await redis.getAsync('added_todos');
   if (added_todos === null) {
-    await redis.setAsync('added_todos', 0);
+    await redis.setAsync('added_todos', 1);
   } else {
     await redis.setAsync('added_todos', Number(added_todos) + 1);
   }
