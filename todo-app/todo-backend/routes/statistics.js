@@ -3,7 +3,11 @@ const router = express.Router();
 const redis = require('../redis');
 
 const getTodosCounter = async () => {
-  const added_todos = await redis.getAsync('added_todos');
+  let added_todos = await redis.getAsync('added_todos');
+  if (added_todos === null) {
+    await redis.setAsync('added_todos', 0);
+    added_todos = await redis.getAsync('added_todos');
+  }
   return added_todos;
 }
 
