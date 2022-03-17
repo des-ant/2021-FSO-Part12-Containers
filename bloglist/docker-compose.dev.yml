@@ -20,13 +20,13 @@ services:
     ports:
       - 3003:3003
     container_name: bloglist-backend-dev # This will name the container todo-backend-dev
-  # nginx:
-  #   image: nginx:1.20.1
-  #   volumes:
-  #     - ./nginx.conf:/etc/nginx/nginx.conf:ro
-  #   ports:
-  #     - 8080:80
-  #   container_name: reverse-proxy-bloglist
-  #   depends_on:
-  #     - app # wait for the frontend container to be started
-  #     - server # wait for the backend container to be started
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy-bloglist
+    depends_on:
+      - app # wait for the frontend container to be started
+      - server # wait for the backend container to be started
